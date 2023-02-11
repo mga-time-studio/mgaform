@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient( 45deg ,red , blue , gray);
-  background-size: 300% 300%;
+  background: linear-gradient( 45deg ,red , blue , red);
+  
 }
 video {
   width: 200px;
@@ -22,7 +22,7 @@ button {
   border-radius: 10%;
   border: 5px gray inset;
   font-family: 'Anton', sans-serif;
-  background: linear-gradient(45deg,red, black, red);
+  background: linear-gradient(45deg, red, black, red);
 }
 input {
   background: blue;
