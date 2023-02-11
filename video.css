@@ -1,10 +1,11 @@
 body {
-  background: linear-gradient( 45deg ,red , blue , red);
+  background: linear-gradient( 45deg ,
+#283c86, #45a247, #283c86);
   
 }
 video {
   width: 200px;
-  border-radius: 3%;
+  border-radius: 5%;
   box-shadow: 5px 5px 10px black;
 }
 h1 {
@@ -16,13 +17,16 @@ button {
   box-shadow: 3px 3px 6px black;
   margin: 27px auto 0;
   position: relative;
+  text-decoration: none;
   width: 150px;
   height: 50px;
   background-color: black;
-  border-radius: 10%;
-  border: 5px gray inset;
   font-family: 'Anton', sans-serif;
-  background: linear-gradient(45deg, red, black, red);
+  background: linear-gradient(to left, 
+#de6161, #2657eb);
+  transform: 5s;
+  border: none;
+  border-radius: 10px;
 }
 input {
   background: blue;
